@@ -1,0 +1,32 @@
+3. Faça um programa em "C" que lê dois valores e imprime: - se o primeiro valor for menor que o segundo, a lista de valores do primeiro até o segundo; - se o primeiro valor for maior que o segundo a lista de valores do primeiro até o segundo em ordem decrescente; - se ambos forem iguais a mensagem "valores iguais".
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(){
+system("cls");
+int n1, n2;
+
+
+printf("digite o primeiro valor: ");
+scanf("%i", &n1);
+
+printf("digite o segundo valor: ");
+scanf("%i", &n2);
+
+if (n1 < n2){
+
+    printf("o primeiro numero e manor!");
+}
+if(n1 > n2){
+
+    printf("o segundo numero e maior!");
+}
+if(n1 == n2){
+
+    printf("numeros iguais!");
+}
+    return 0;
+}

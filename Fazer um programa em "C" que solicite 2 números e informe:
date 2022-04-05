@@ -1,0 +1,32 @@
+2. Fazer um programa em "C" que solicite 2 números e informe: a) A soma dos números; b) O produto do primeiro número pelo quadrado do segundo; c) O quadrado do primeiro número;
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(){
+system("cls");
+int n1,n2,soma,raiz,produto, quadrado;
+
+printf("digite o primeiro valor: \n");
+scanf("%i",&n1);
+
+printf("digite o segundo valor: \n");
+scanf("%i",&n2);
+
+soma = n1+n2;
+
+raiz = n2*n2;
+produto = n1 * (n2 * n2);
+quadrado= n1*n1;
+
+printf("a soma e: %i \n",soma);
+printf("a soma do produto do primeiro pelo quadrado do segundo: %i \n",produto);
+printf("raiz quadrada do primeiro numero: %i \n", quadrado);
+
+
+
+
+    return 0;
+}

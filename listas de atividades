@@ -1,0 +1,30 @@
+1. Fazer um programa em C que pergunta um valor em metros e imprime ocorrespondente em decímetros, centímetros e milímetros.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(){
+system("cls");
+
+float metros,decimetros,centimetros,milimetros;
+
+printf("informe o valor em metros");
+
+scanf("%f",&metros);
+
+decimetros=metros*10;
+
+centimetros=metros*100;
+
+milimetros=metros*1000;
+
+printf("o valor em decimetros e: %f \n",decimetros);
+
+printf("o valor em centimetros e: %f \n",centimetros);
+
+printf("o valor em milimetros e: %f \n",milimetros);
+
+    return 0;
+}

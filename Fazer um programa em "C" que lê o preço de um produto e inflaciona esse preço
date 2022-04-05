@@ -1,0 +1,40 @@
+4. Fazer um programa em "C" que lê o preço de um produto e inflaciona esse preço em 10% se ele for menor que 100 e em 20% se ele for maior ou igual a100.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(){
+system("cls");
+/*Fazer um programa em "C" que lê o preço de um produto 
+e inflaciona esse preço em 10% se ele for menor que 100 e em 
+20% se ele for maior ou igual a100.*/
+
+int valor,porcento,v;
+
+printf("digite o valor: \n");
+scanf("%i", &valor);
+
+if(valor < 100){
+    porcento=valor*10/100;
+v= valor + porcento;
+
+printf("o valor %i com o aumeto de %i fica: %i",valor,porcento,v);
+
+
+}
+if(valor >= 100){
+    porcento=valor*20/100;
+v= valor + porcento;
+
+printf("o valor %i com o aumeto de %i fica: %i",valor,porcento,v);
+
+
+}
+
+
+
+
+    return 0;
+}
